@@ -1,0 +1,12 @@
+-- Criação da tabela de cactos
+CREATE TABLE MEUS_CACTOS (
+    ID_CACTO NUMBER PRIMARY KEY,
+    NOME_CACTO VARCHAR2(100),
+    TIPO_CACTO VARCHAR2(100)
+);
+
+-- Inserção de dados iniciais
+INSERT INTO MEUS_CACTOS (ID_CACTO, NOME_CACTO, TIPO_CACTO) VALUES (1, 'Cactolino', 'Mandacaru');
+INSERT INTO MEUS_CACTOS (ID_CACTO, NOME_CACTO, TIPO_CACTO) VALUES (2, 'Rei do Cangaco', 'Xique-Xique');
+INSERT INTO MEUS_CACTOS (ID_CACTO, NOME_CACTO, TIPO_CACTO) VALUES (3, 'Flor do Sertao', 'Cacto de Flor');
+COMMIT;
