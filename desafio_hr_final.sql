@@ -33,4 +33,4 @@ COMMIT;
 -- 3. Consulta de Verificação
 SELECT * FROM HR.EMPLOYEES;
 
-https://github.com/[SEU_USUARIO]/[NOME_DO_REPO]/settings/pages
+https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO/issues/new
